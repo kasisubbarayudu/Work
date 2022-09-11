@@ -1,4 +1,4 @@
-def add():
+def test_add():
     """
     This method is used to add two numbers.
     Args:
@@ -10,4 +10,4 @@ def add():
     print(10 + 30)
 
 
-add()
+test_add()
