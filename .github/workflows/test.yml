@@ -3,7 +3,7 @@ on:
 
 jobs:
   job1:
-    uses: kasisubbarayudu/Work/.github/workflows/main.yml@main
+    uses: kasisubbarayudu/Work/.github/workflows/main.yml@master
   job2:
     runs-on: ubuntu-latest
     steps:
