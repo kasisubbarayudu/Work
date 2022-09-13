@@ -3,7 +3,8 @@ on:
     branches: master
 
 jobs:
-  pytest:
+  test:
+    runs-on: ubuntu-latest
     steps:
     - name: checking out to latest repo...
       uses: actions/checkout@v3
