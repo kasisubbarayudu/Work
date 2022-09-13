@@ -6,6 +6,7 @@ jobs:
   job1:
     uses: kasisubbarayudu/Work/.github/workflows/main.yml@master
   job2:
+    needs: job1
     runs-on: ubuntu-latest
     steps:
     - name: Test with pytest
