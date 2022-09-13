@@ -1,9 +1,10 @@
 on:
-  push:
-    branches: master
+  workflow_dispatch:
 
 jobs:
-  test:
+  job1:
+    uses: kasisubbarayudu/Work/.github/workflows/main.yml@main
+  job2:
     runs-on: ubuntu-latest
     steps:
     - name: checking out to latest repo...
