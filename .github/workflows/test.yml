@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: checking the pre-requisites...
-    uses: kasisubbarayudu/Work/.github/workflows/main.yml@master
+      uses: kasisubbarayudu/Work/.github/workflows/main.yml@master
     - name: Test with pytest
       run: |
         pytest -vv
